@@ -188,4 +188,55 @@ li{
     .app{
         flex-direction: column;
     }
+    .app__image{
+        width: 25px;
+        height: 25px;
+    }
+    .app__name{
+        font-size: small;
+    }
+    .app__right{
+        margin-top: 20px;
+    }
+    .app__info{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .precaution_content{
+        margin-top: 40px;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .app_precaution{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .content_card{
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .spread_title_custom{
+        font-size: 3.575rem;
+    }
+    .title_custom{
+        font-size: 3.575rem;
+    }
+    .spread_ques{
+        font-size: 1.5125rem;
+    }
+    .title_imp{
+        font-size: 1.3125rem;
+    }
+    .title_prec{
+        font-size: 1.3125rem;
+    }
+    .title_ques{
+        font-size: 1.1125rem;
+        margin-top: 5px;
+    }
+    .title_custom_embed{
+        margin-top: 0px;
+    }
 }
