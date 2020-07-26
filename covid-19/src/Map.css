@@ -21,3 +21,14 @@
     border-radius: 8px;
     background-size: cover;
 }
+
+@media (max-width: 950px) {
+    .map{
+        height: 300px;
+        background-color: white;
+        padding: 1rem;
+        border-radius: 20px;
+        margin-top: 16px;
+        box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+    }
+}

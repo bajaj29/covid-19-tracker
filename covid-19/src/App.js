@@ -84,8 +84,8 @@ function App() {
 				<div className="app__left">
 					<div className="app__header">	
 						<div style={{display: "flex"}}>
-							<img src={covidImage} style={{ width:"50px", height:"40px"}}></img>
-							<h1 style={{color: "#CC1034"}}>NOVEL COVID-19</h1>
+							<img className="app__image" src={covidImage} style={{ width:"50px", height:"40px"}}></img>
+							<h1 className="app__name" style={{color: "#CC1034"}}>NOVEL COVID-19</h1>
 						</div>
 						<FormControl className="app__dropdown">
 							<Select
@@ -105,7 +105,7 @@ function App() {
 						<InfoBox onClick={e => setCaseType('recovered')} active={caseType === 'recovered'} title="Recovered"  total={countryInfo.recovered} cases={countryInfo.todayRecovered}/>
 						<InfoBox onClick={e => setCaseType('deaths')} isRed active={caseType === 'deaths'} title="Deaths"  total={countryInfo.deaths} cases={countryInfo.todayDeaths}/>
 					</div>
-					<Map countries={mapCountries} center={mapCenter} zoom={mapZoom} casesType={caseType}/>
+					<Map className="app__map" countries={mapCountries} center={mapCenter} zoom={mapZoom} casesType={caseType}/>
 				</div>
 				<Card className="app__right">
 					<CardContent>
@@ -135,7 +135,7 @@ function App() {
 				<div className="info__spread">
 					<div className="spread_title">
 						<div className="spread_title_custom">SPREAD</div>
-						<h1><span style={{color: "#fc7b3b", fontWeight: 400}}>How</span> <span style={{fontWeight: 700}}>Virus Spreads</span></h1>
+						<h1 className="spread_ques"><span style={{color: "#fc7b3b", fontWeight: 400}}>How</span> <span style={{fontWeight: 700}}>Virus Spreads</span></h1>
 					</div>
 					<br/>
 					<p>Though COVID-19 is thought to spread mainly from person to person, we are still learning how it spreads. The virus spreads through:</p>
