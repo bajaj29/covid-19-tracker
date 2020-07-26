@@ -189,11 +189,12 @@ li{
         flex-direction: column;
     }
     .app__image{
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
     }
     .app__name{
-        font-size: small;
+        font-size: large;
+        margin-top: 5px;
     }
     .app__right{
         margin-top: 20px;
@@ -214,6 +215,10 @@ li{
         margin-top: 20px;
     }
     .content_card{
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .content_card:last-child{
         margin-right: 20px;
         margin-top: 20px;
     }
@@ -221,16 +226,16 @@ li{
         font-size: 3.575rem;
     }
     .title_custom{
-        font-size: 3.575rem;
+        font-size: 3.375rem;
     }
     .spread_ques{
         font-size: 1.5125rem;
     }
     .title_imp{
-        font-size: 1.3125rem;
+        font-size: 1.2125rem;
     }
     .title_prec{
-        font-size: 1.3125rem;
+        font-size: 1.2125rem;
     }
     .title_ques{
         font-size: 1.1125rem;
